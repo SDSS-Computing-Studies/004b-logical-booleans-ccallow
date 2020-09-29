@@ -26,3 +26,19 @@ Enter an integer=>4
 Enter an integer=>2
 2,4,5 do not form a Pythagorean triple
 """
+print("================================")
+import math
+a = input("Enter the smallest number:  ")
+fa=float(a)
+aa=str(a)
+b = input("Enter the middle number:  ")
+fb=float(b)
+bb=str(b)
+c = input("Enter largest number:  ")
+fc=float(c)
+cc=str(c)
+
+if fa**2 + fb**2 == fc**2:
+    print(a+", " +b +", "+ c +" do form a Pythagorean triple")
+else:
+    print(a+b+c +"do not form a Pythagorean triple")

@@ -23,3 +23,17 @@ Enter a number: 4
 Enter another number: 25
 4 is not a factor of 25
 """
+
+print("=======================================")
+a = input("Enter a number:  ")
+a=float(a)
+aa=str(a)
+b = input("Enter a number:  ")
+b=float(b)
+bb=str(b)
+
+if a/b== int(a/b):
+    print(aa+ " is a factor of "+bb)
+else:
+    print(aa +" is not a factor of "+ bb)
+print("=======================================")

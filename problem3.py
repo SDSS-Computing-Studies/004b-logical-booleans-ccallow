@@ -28,17 +28,28 @@ Enter an integer=>2
 """
 print("================================")
 import math
-a = input("Enter the smallest number:  ")
+a = input("Enter an integer:  ")
 fa=float(a)
 aa=str(a)
-b = input("Enter the middle number:  ")
+b = input("Enter an integer:  ")
 fb=float(b)
 bb=str(b)
-c = input("Enter largest number:  ")
+c = input("Enter an integer:  ")
 fc=float(c)
 cc=str(c)
 
-if fa**2 + fb**2 == fc**2:
-    print(a+", " +b +", "+ c +" do form a Pythagorean triple")
-else:
-    print(a+b+c +"do not form a Pythagorean triple")
+if fa>fb>fc or fa>fc>fb:
+    if fa**2 == fb**2 + fc**2:
+        print(a+", " +b +", "+ c +" do form a Pythagorean triple")
+    else:
+        print(a+b+c +"do not form a Pythagorean triple")
+elif fb>fa>fc or fb>fc>fa:
+    if fa**2 + fc**2 == fb**2:
+        print(a+", " +b +", "+ c +" do form a Pythagorean triple")
+    else:
+        print(a+b+c +"do not form a Pythagorean triple")
+elif fc>fa>fb or fc>fb>fa:
+    if fc**2 == fa**2 + fb**2:
+        print(a+", " +b +", "+ c +" do form a Pythagorean triple")
+    else:
+        print(a+b+c +"do not form a Pythagorean triple")

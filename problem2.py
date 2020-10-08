@@ -32,8 +32,15 @@ b = input("Enter a number:  ")
 b=float(b)
 bb=str(b)
 
-if a/b== int(a/b):
+if a>b:
+    if a/b== int(a/b):
+    print(bb+ " is a factor of "+aa)
+    else:
+    print(bb +" is not a factor of "+ aa)
+    print("=======================================")
+elif b>a:
+    if b/a== int(b/a):
     print(aa+ " is a factor of "+bb)
-else:
+    else:
     print(aa +" is not a factor of "+ bb)
-print("=======================================")
+    print("=======================================")

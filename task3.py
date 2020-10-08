@@ -1,27 +1,30 @@
 #! python3
 """
-Ask the user to enter a number. 
-Tell them if the number is a positive integer
-(2 points) 
+Ask the user to enter in a number.
+Have them repeat this until the number is an even integer.
+(2 marks)
+
 
 inputs:
-a number of any type
+    float number
 
 outputs:
-xx is a positive integer.
-xx is not a positive integer
+    That is an even integer
+    That is not an even integer
 
-example:
-Enter a number: -3
--3 is not a positive integer
+Examples:
+Enter number:1.3
+That is not an even integer
+Enter number:4
+That is an even integer
+
 """
-print("=============================")
-a=input("Choose a number: ")
-print("=============================")
-a=float(a)
-b=str(a)
-if a>0 and a==int(a):
-  print(b+" is a positive number.")
-else:
-  print(b +" is not a positive integer")
-print("=============================\n\n\n")
+print("===========")
+while True:
+    num = float(input("Enter a number: "))
+    if num/2.0 == int(num/2.0) and num>0:
+        break
+    else:
+        print("That is not an even integer")
+
+print("That is an even integer")

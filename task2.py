@@ -26,11 +26,15 @@ num=float(num)
 a=str(num)
 sq=(math.sqrt(num))
 
-if num**(1/3) == int(num**(1/3)):
+x = num**(1/3)
+x = round(x,10)
+y= num**(1/2)
+y= round(y,10)
+if x == int(x):
   print(a +" is ony a perfect cube.")
-elif num**(1/3)== int ((num**(1/3))) and (math.sqrt(num)==int(math.sqrt(num))):
+elif (x==int(x) and y==int(y)):
   print(a + " is both a perfect square and a perfect cube")
-elif math.sqrt(num)==int(sq):
+elif y==int(y):
   print(a +" is only a perfect square.")
 else:
   print("This is neither")

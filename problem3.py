@@ -52,4 +52,4 @@ elif fc>fa>fb or fc>fb>fa:
     if fc**2 == fa**2 + fb**2:
         print(a+"," +b +","+ c +" do form a Pythagorean triple")
     else:
-        print(a+b+c +"do not form a Pythagorean triple")
+        print(a+","+b+","+c +"do not form a Pythagorean triple")

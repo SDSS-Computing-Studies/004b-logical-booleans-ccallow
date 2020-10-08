@@ -25,6 +25,7 @@ while True:
     if num/2.0 == int(num/2.0) and num>0:
         break
     else:
-        print("That is not an even integer")
-
-print("That is an even integer")
+        a=str(num)
+        print(a + "is not an even integer")
+a=str(num)
+print(a +" is an even integer")

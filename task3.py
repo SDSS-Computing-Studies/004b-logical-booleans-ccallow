@@ -26,6 +26,6 @@ while True:
         break
     else:
         a=str(num)
-        print(a + "is not an even integer")
+        print(a + " is not an even integer")
 a=str(num)
 print(a +" is an even integer")

@@ -28,13 +28,13 @@ Enter an integer=>2
 """
 print("================================")
 import math
-a = input("Enter an integer:  ")
+a = input("Enter an integer:  ").strip()
 fa=float(a)
 aa=str(a)
-b = input("Enter an integer:  ")
+b = input("Enter an integer:  ").strip()
 fb=float(b)
 bb=str(b)
-c = input("Enter an integer:  ")
+c = input("Enter an integer:  ").strip()
 fc=float(c)
 cc=str(c)
 

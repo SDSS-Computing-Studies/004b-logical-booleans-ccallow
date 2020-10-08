@@ -40,12 +40,12 @@ cc=str(c)
 
 if fa>fb>fc or fa>fc>fb:
     if fa**2 == fb**2 + fc**2:
-        print(a+"," +b +","+ c +" form a Pythagorean triple")
+        print(c+"," +b +","+ a +" form a Pythagorean triple")
     else:
         print(a+b+c +"do not form a Pythagorean triple")
 elif fb>fa>fc or fb>fc>fa:
     if fa**2 + fc**2 == fb**2:
-        print(a+"," +b +","+ c +" form a Pythagorean triple")
+        print(a+"," +c +","+ b +" form a Pythagorean triple")
     else:
         print(a+b+c +"do not form a Pythagorean triple")
 elif fc>fa>fb or fc>fb>fa:

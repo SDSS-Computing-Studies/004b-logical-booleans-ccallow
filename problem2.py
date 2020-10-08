@@ -43,4 +43,4 @@ elif b>a:
     print(aa+ " is a factor of "+bb)
     else:
     print(aa +" is not a factor of "+ bb)
-    print("=======================================")
+    print("======================================")

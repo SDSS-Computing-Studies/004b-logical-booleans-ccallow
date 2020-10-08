@@ -21,7 +21,8 @@ That is an even integer
 """
 print("===========")
 while True:
-    num = float(input("Enter a number: ").strip())
+    num = input("Enter a number: ")
+    num = float(num)
     if num/2.0 == int(num/2.0) and num>0:
         break
     else:

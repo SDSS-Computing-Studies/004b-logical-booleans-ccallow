@@ -1,5 +1,4 @@
 #! python3
-
 """
 Problem 2
 Factors are positive integers that divide evenly into another integer.

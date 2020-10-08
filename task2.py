@@ -31,9 +31,10 @@ x = round(x,10)
 y= num**(1/2)
 y= round(y,10)
 if x == int(x):
-  print(a +" is ony a perfect cube.")
-elif (x==int(x) and y==int(y)):
-  print(a + " is both a perfect square and a perfect cube")
+  if y==int(y):
+    print(a + " is both a perfect square and a perfect cube.")
+  else:
+    print(a +" is ony a perfect cube.")
 elif y==int(y):
   print(a +" is only a perfect square.")
 else:
